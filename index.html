@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Startups Browser</title>
+		<link rel="stylesheet" href="./styles/main.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/33be4e2a6a.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="menu">
+					<a class="menu__tab" href="#">Find Jobs</a>
+					<a class="menu__tab active" href="#">Browse Startups</a>
+				</div>
+			</header>
+			<section class="search">
+				<div class="search__item">
+					<i class="fas fa-search icon"></i>
+					<input class="input" type="text" placeholder="Company or keywords" />
+				</div>
+				<div class="search__item">
+					<i class="fas fa-map-pin icon"></i>
+					<input class="input" type="text" placeholder="Choose location" />
+					<button class="button" type="submit">Search</button>
+				</div>
+			</section>
+			<section class="container">
+				<aside class="aside">
+					<!-- Filter begin -->
+					<div class="filter">
+						<h3 class="filter__title">Industry</h3>
+						<div class="filter__option">
+							<input
+								class="checkbox"
+								type="checkbox"
+								name="consumer-goods"
+								id="consumer"
+							/>
+							<label class="label" for="consumer">Consumer goods</label>
+						</div>
+						<div class="filter__option">
+							<input
+								class="checkbox"
+								type="checkbox"
+								name="education"
+								id="education"
+							/>
+							<label class="label" for="education">Education</label>
+						</div>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="energy" id="energy" />
+							<label class="label" for="energy">Energy & Greentech</label>
+						</div>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="finance" id="finance" />
+							<label class="label" for="finance">Finance</label>
+						</div>
+						<div class="filter__option">
+							<input
+								class="checkbox"
+								type="checkbox"
+								name="healthcare"
+								id="healthcare"
+							/>
+							<label class="label" for="healthcare">Healthcare</label>
+						</div>
+						<div class="filter__option">
+							<input
+								class="checkbox"
+								type="checkbox"
+								name="it-software"
+								id="it-software"
+							/>
+							<label class="label" for="it-software">IT & Software</label>
+						</div>
+						<div class="filter__option">
+							<input
+								class="checkbox"
+								type="checkbox"
+								name="transport"
+								id="transport"
+							/>
+							<label class="label" for="transport">Maritime & Transport</label>
+						</div>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="saas" id="saas" />
+							<label class="label" for="saas">Saas</label>
+						</div>
+					</div>
+					<!-- Filter end -->
+					<!-- Filter begin -->
+					<div class="filter">
+						<h3 class="filter__title">Starup stage</h3>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="idea" id="idea" />
+							<label class="label" for="idea">Idea</label>
+						</div>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="product" id="product" />
+							<label class="label" for="product">Product or Prototype</label>
+						</div>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="energy" id="market" />
+							<label class="label" for="market">Go to market</label>
+						</div>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="growth" id="growth" />
+							<label class="label" for="growth">Growth & Expansion</label>
+						</div>
+					</div>
+					<!-- Filter end -->
+					<!-- Filter begin -->
+					<div class="filter">
+						<h3 class="filter__title">Starup size</h3>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="10" id="10" />
+							<label class="label" for="10">0 - 10</label>
+						</div>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="49" id="49" />
+							<label class="label" for="49">11 - 49</label>
+						</div>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="99" id="99" />
+							<label class="label" for="99">50 - 99</label>
+						</div>
+						<div class="filter__option">
+							<input class="checkbox" type="checkbox" name="100" id="100" />
+							<label class="label" for="100">+100</label>
+						</div>
+					</div>
+				</aside>
+				<section class="content">
+					<div class="results-header">
+						<h3 class="results-header__title">Showing: 28 filtered starups</h3>
+						<h4 class="results-header__sort">Sort by: <a href="">Revelance<img src="./assets/down-arrow.svg" alt="down" /></a></h4>
+					</div>
+					<div class="results-container">
+						<div class="results-card">
+							<img src="./assets/airbnb-logo.png" alt="Airbnb Logo" />
+							<p class="results-card__title">Airbnb</p>
+							<p class="results-card__description">Spec.io provides a unified Saas platform for social media listening. Engaging...</p>
+							<p class="results-card__tags">Design · Stockholm</p>
+						</div>
+						<div class="results-card">
+							<img src="./assets/platzi-logo.png" alt="Airbnb Logo" />
+							<p class="results-card__title">Platzi</p>
+							<p class="results-card__description">Spec.io provides a unified Saas platform for social media listening. Engaging...</p>
+							<p class="results-card__tags">Education · Bogotá</p>
+						</div>
+						<div class="results-card">
+							<img src="./assets/apt-apply-logo.png" alt="Airbnb Logo" />
+							<p class="results-card__title">APT Apply</p>
+							<p class="results-card__description">Spec.io provides a unified Saas platform for social media listening. Engaging...</p>
+							<p class="results-card__tags">Education · Bogotá</p>
+						</div>
+						<div class="results-card">
+							<img src="./assets/zameely-logo.png" alt="Airbnb Logo" />
+							<p class="results-card__title">Zameely</p>
+							<p class="results-card__description">Spec.io provides a unified Saas platform for social media listening. Engaging...</p>
+							<p class="results-card__tags">Education · Bogotá</p>
+						</div>
+						<div class="results-card">
+							<img src="./assets/skurt-logo.png" alt="Airbnb Logo" />
+							<p class="results-card__title">Skurt</p>
+							<p class="results-card__description">Spec.io provides a unified Saas platform for social media listening. Engaging...</p>
+							<p class="results-card__tags">Education · Bogotá</p>
+						</div>
+						<div class="results-card">
+							<img src="./assets/medici-logo.png" alt="Airbnb Logo" />
+							<p class="results-card__title">Medici</p>
+							<p class="results-card__description">Spec.io provides a unified Saas platform for social media listening. Engaging...</p>
+							<p class="results-card__tags">Education · Bogotá</p>
+						</div>
+					</div>
+				</section>
+			</section>
+		</div>
+	</body>
+</html>
