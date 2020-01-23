@@ -35,7 +35,6 @@ body {
 		position: relative;
 		text-decoration: none;
     text-transform: uppercase;
-    display: inline-block;
     &.active {
       box-shadow: 0 5px 0 $primary-color;
       font-weight: bold;
@@ -151,11 +150,9 @@ body {
 }
 
 .aside {
-  //background-color: gray;
   flex: 0 0 20%;
   padding: 1rem;
   color: $gray2;
-  //height: 600px;
 }
 
 .filter {
@@ -187,7 +184,28 @@ body {
   }
   .search {
     flex-direction: column;
-    width: max-content;
+    &__item {
+      border-bottom: 0.5px solid $background-color;
+      .button { 
+        padding: 0.7rem 1rem;
+        margin: 8px;
+      }
+    }
+  }
+  .container {
+    flex-flow: column nowrap;
+  }
+  .aside {
+    padding: 0rem;
+  }
+  .filter {
+    margin-bottom: 1rem;
+  }
+  .content {
+    padding: 0rem;
+  }
+  .results-container {
+    justify-content: center;
   }
   .header {
     width: max-content;
